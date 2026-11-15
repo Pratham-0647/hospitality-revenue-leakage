@@ -1,0 +1,26 @@
+property_id,property_name,city,category,tier,revenue,occupancy_pct,adr,revpar,cancellation_pct,avg_rating
+16559,Atliq Exotica,Mumbai,Luxury,High,118448418.0,65.92,16141.78,10640.35,24.61,4.32
+17563,Atliq Palace,Mumbai,Business,High,101511080.0,66.23,16018.79,10609.44,24.38,4.29
+17559,Atliq Exotica,Mumbai,Luxury,High,93996570.0,66.1,15303.9,10115.86,24.01,4.32
+17561,Atliq Blu,Mumbai,Luxury,High,73918312.0,66.28,14261.68,9452.47,24.52,4.3
+19562,Atliq Bay,Bangalore,Luxury,High,82443540.0,65.81,14185.06,9334.64,24.33,4.28
+19560,Atliq City,Bangalore,Business,High,81876345.0,65.65,13693.99,8989.5,26.38,4.28
+16561,Atliq Blu,Delhi,Luxury,High,57933400.0,65.78,13113.04,8626.18,25.51,4.28
+16563,Atliq Palace,Delhi,Business,High,89135998.0,66.4,12471.81,8280.94,25.26,4.27
+17558,Atliq Grands,Mumbai,Luxury,Mid,74730742.0,53.67,14839.31,7963.63,25.66,3.05
+17560,Atliq City,Mumbai,Business,Mid,87996216.0,53.14,14634.33,7776.27,25.06,3.04
+16558,Atliq Grands,Delhi,Luxury,High,36061172.0,65.91,11437.1,7537.87,25.06,4.25
+17564,Atliq Seasons,Mumbai,Business,Low,66125495.0,44.62,16606.1,7409.85,24.79,2.29
+19559,Atliq Exotica,Bangalore,Luxury,Mid,60023460.0,53.83,12757.38,6867.67,24.48,3.05
+17562,Atliq Bay,Mumbai,Luxury,Low,51914158.0,44.84,15161.85,6798.61,25.44,2.36
+19561,Atliq Blu,Bangalore,Luxury,Mid,72963360.0,53.29,12720.25,6778.46,24.65,3.08
+19563,Atliq Palace,Bangalore,Business,Mid,68596005.0,53.49,12672.46,6778.26,25.35,3.02
+16560,Atliq City,Delhi,Business,Mid,54932178.0,53.7,11705.13,6285.15,24.12,3.01
+16562,Atliq Bay,Delhi,Luxury,Mid,56437570.0,53.46,11709.04,6259.71,25.27,3.07
+18562,Atliq Bay,Hyderabad,Luxury,High,69255910.0,65.87,9444.42,6221.34,24.7,4.3
+18560,Atliq City,Hyderabad,Business,High,61007200.0,66.19,9190.6,6083.69,24.03,4.26
+18561,Atliq Blu,Hyderabad,Luxury,High,56040450.0,65.6,8677.68,5692.85,24.17,4.25
+19558,Atliq Grands,Bangalore,Luxury,Low,54494340.0,44.4,12467.25,5535.79,24.55,2.36
+18558,Atliq Grands,Hyderabad,Luxury,Mid,46246510.0,53.45,10334.42,5523.95,24.98,3.07
+18563,Atliq Palace,Hyderabad,Business,Mid,44838780.0,52.98,9483.67,5024.52,25.95,3.07
+18559,Atliq Exotica,Hyderabad,Luxury,Low,47844020.0,44.63,9102.74,4062.84,24.35,2.33

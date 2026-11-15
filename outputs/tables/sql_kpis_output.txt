@@ -1,0 +1,69 @@
+psql:sql/hotel_kpis.sql:12: NOTICE:  schema "hotel" does not exist, skipping
+  revenue   | booked_revenue |  leakage  | leakage_pct | occupancy_pct | realised_occupancy_pct |   adr    | revpar  | cancellation_pct | noshow_pct | realisation_pct | avg_rating | dsrn 
+------------+----------------+-----------+-------------+---------------+------------------------+----------+---------+------------------+------------+-----------------+------------+------
+ 1708771229 |     2007546215 | 298774986 |       14.88 |         57.87 |                  40.59 | 12696.12 | 7347.15 |            24.83 |       5.02 |           70.15 |       3.62 | 2528
+(1 row)
+
+ day_type | capacity_share_pct | occupancy_pct | revpar  
+----------+--------------------+---------------+---------
+ weekday  |              70.65 |         51.34 | 6509.88
+ weekend  |              29.35 |         73.58 | 9362.80
+(2 rows)
+
+ property_id | property_name |   city    | occupancy_pct | revpar | avg_rating | tier | revpar_rank 
+-------------+---------------+-----------+---------------+--------+------------+------+-------------
+       16559 | Atliq Exotica | Mumbai    |         65.92 |  10640 |       4.32 | High |           1
+       17563 | Atliq Palace  | Mumbai    |         66.23 |  10609 |       4.29 | High |           2
+       17559 | Atliq Exotica | Mumbai    |         66.10 |  10116 |       4.32 | High |           3
+       17561 | Atliq Blu     | Mumbai    |         66.28 |   9452 |       4.30 | High |           4
+       19562 | Atliq Bay     | Bangalore |         65.81 |   9335 |       4.28 | High |           5
+       19560 | Atliq City    | Bangalore |         65.65 |   8989 |       4.28 | High |           6
+       16561 | Atliq Blu     | Delhi     |         65.78 |   8626 |       4.28 | High |           7
+       16563 | Atliq Palace  | Delhi     |         66.40 |   8281 |       4.27 | High |           8
+       17558 | Atliq Grands  | Mumbai    |         53.67 |   7964 |       3.05 | Mid  |           9
+       17560 | Atliq City    | Mumbai    |         53.14 |   7776 |       3.04 | Mid  |          10
+       16558 | Atliq Grands  | Delhi     |         65.91 |   7538 |       4.25 | High |          11
+       17564 | Atliq Seasons | Mumbai    |         44.62 |   7410 |       2.29 | Low  |          12
+       19559 | Atliq Exotica | Bangalore |         53.83 |   6868 |       3.05 | Mid  |          13
+       17562 | Atliq Bay     | Mumbai    |         44.84 |   6799 |       2.36 | Low  |          14
+       19561 | Atliq Blu     | Bangalore |         53.29 |   6778 |       3.08 | Mid  |          15
+       19563 | Atliq Palace  | Bangalore |         53.49 |   6778 |       3.02 | Mid  |          16
+       16560 | Atliq City    | Delhi     |         53.70 |   6285 |       3.01 | Mid  |          17
+       16562 | Atliq Bay     | Delhi     |         53.46 |   6260 |       3.07 | Mid  |          18
+       18562 | Atliq Bay     | Hyderabad |         65.87 |   6221 |       4.30 | High |          19
+       18560 | Atliq City    | Hyderabad |         66.19 |   6084 |       4.26 | High |          20
+       18561 | Atliq Blu     | Hyderabad |         65.60 |   5693 |       4.25 | High |          21
+       19558 | Atliq Grands  | Bangalore |         44.40 |   5536 |       2.36 | Low  |          22
+       18558 | Atliq Grands  | Hyderabad |         53.45 |   5524 |       3.07 | Mid  |          23
+       18563 | Atliq Palace  | Hyderabad |         52.98 |   5025 |       3.07 | Mid  |          24
+       18559 | Atliq Exotica | Hyderabad |         44.63 |   4063 |       2.33 | Low  |          25
+(25 rows)
+
+ week_num |  revenue  | occupancy_pct | revpar | revenue_wow_pct | week_type 
+----------+-----------+---------------+--------+-----------------+-----------
+       19 | 138182064 |         61.96 |   7809 |                 | normal
+       20 | 139435920 |         61.92 |   7880 |            0.91 | normal
+       21 | 114922175 |         51.10 |   6494 |          -17.58 | dip
+       22 | 138720126 |         61.79 |   7839 |           20.71 | normal
+       23 | 115568569 |         51.36 |   6531 |          -16.69 | dip
+       24 | 139581703 |         62.39 |   7888 |           20.78 | normal
+       25 | 138674279 |         61.84 |   7836 |           -0.65 | normal
+       26 | 114152421 |         50.96 |   6451 |          -17.68 | dip
+       27 | 139555632 |         61.95 |   7886 |           22.25 | normal
+       28 | 139383916 |         61.76 |   7877 |           -0.12 | normal
+       29 | 139730590 |         62.26 |   7896 |            0.25 | normal
+       30 | 114811148 |         50.97 |   6488 |          -17.83 | dip
+       31 | 115042325 |         50.98 |   6501 |            0.20 | dip
+(13 rows)
+
+ booking_platform | bookings | cancellation_pct |  leakage  
+------------------+----------+------------------+-----------
+ others           |    55066 |            24.88 | 121713318
+ makeyourtrip     |    26898 |            24.99 |  60667626
+ logtrip          |    14756 |            24.30 |  31924467
+ direct online    |    13379 |            24.99 |  29743563
+ tripster         |     9630 |            24.99 |  21647709
+ journey          |     8106 |            24.78 |  18123381
+ direct offline   |     6755 |            24.49 |  14954922
+(7 rows)
+
